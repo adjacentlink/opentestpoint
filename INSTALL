@@ -1,0 +1,24 @@
+Build
+=====
+
+ # ./autogen.sh
+
+ # ./configure
+
+ # make
+
+For information on configuration options see:
+
+ # ./configure --help
+
+
+Build RPMs
+==========
+
+ # make rpm
+
+
+Build debs
+==========
+
+ # make deb

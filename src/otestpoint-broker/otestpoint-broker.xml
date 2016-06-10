@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<otestpoint-broker discovery="127.0.0.1:9001" publish="localhost6:9002">
+  <testpoint discovery="127.0.0.1:8881" publish="localhost6:8882"/>
+</otestpoint-broker>

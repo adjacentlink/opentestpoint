@@ -1,0 +1,14 @@
+<otestpoint id="node1" discovery="localhost:8881" publish="localhost6:8882">
+  <probe>
+    <plugin library="libprobeplugintimeofday.so"/>
+  </probe>
+  <probe>
+    <python module="adjacentlink.testpoint.probes" class="TimeOfDay"/>
+  </probe>
+  <probe>
+    <python module="adjacentlink.testpoint.probes" class="TimeOfDay"/>
+  </probe>
+  <probe>
+    <plugin library="libprobeplugintimeofday.so"/>
+  </probe>
+</otestpoint>
