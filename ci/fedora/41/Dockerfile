@@ -1,4 +1,4 @@
-FROM fedora:37
+FROM fedora:41
 
 RUN mkdir -p /opt/built
 
